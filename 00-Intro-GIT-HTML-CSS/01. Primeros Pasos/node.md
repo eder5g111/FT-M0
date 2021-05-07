@@ -2,7 +2,7 @@
 
 Para instalar Node js en nuestra computadora, nos dirigimos al sitio oficial:
 
-<https://nodejs.org/es/>
+<https://nodejnode --s.org/es/>
 
 Al ingresar, el sitio detectará nuestro Sistema Operativo y nos sugerirá que descarguemos el instalador adecuado.
 
