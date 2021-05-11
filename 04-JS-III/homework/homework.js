@@ -44,8 +44,7 @@ function incrementarPorUno(array) {
 function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
-  // Tu código:
-
+  // Tu código: 
   array[array.length] = elemento;
   return array;
 }
@@ -67,9 +66,21 @@ function dePalabrasAFrase(palabras) {
   // Devuelve un string donde todas las palabras estén concatenadas
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
+
   // Tu código:
 
   return palabras.join(' ');
+  
+  //var frase = "";
+  //for(let i = 0; i < palabras.length; i++) {
+    //if(i === palabras.length - 1){
+      //frase = frase + palabras[i] 
+    //}
+    //else frase = frase + palabras [i] + ""
+  //}
+ // return frase;
+  
+
 }
 
 
@@ -116,10 +127,7 @@ function numeroMasGrande(numeros) {
   // Tu código:
 
   var maximo = numeros[0];
-
-  for(var i = 1; i < numeros.length; i++) 
-  {
-    
+  for(var i = 1; i < numeros.length; i++) {
     if(numeros[i] > maximo) { 
       maximo = numeros[i];
     }
@@ -163,9 +171,9 @@ function diaDeLaSemana(numeroDeDia) {
   //Escribe tu código aquí  
   
   if(numeroDeDia === 1 || numeroDeDia === 7 ){
-    return "Es fin de semana"
+    return "Es fin de semana";
   }
-  return "Es dia Laboral"
+  return "Es dia Laboral";
   
 } 
 
